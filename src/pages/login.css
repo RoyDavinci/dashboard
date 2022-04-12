@@ -1,0 +1,37 @@
+.picture {
+	background-image: linear-gradient(
+			to right,
+			rgba(161, 161, 161, 0.5),
+			rgba(161, 161, 161, 0.5)
+		),
+		url(../images/pexels-sora-shimazaki-5669603.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	position: relative;
+}
+.picture h2 {
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	width: 65%;
+}
+.form-group input[type="text"] {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+input,
+input[type="email"],
+input:focus,
+input:hover {
+	border: none;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	background: none;
+}
+input::placeholder {
+	font-size: 18px;
+}

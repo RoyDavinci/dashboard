@@ -1,0 +1,65 @@
+main {
+	display: grid;
+	grid-template-columns: 0.7fr 3.3fr;
+}
+.form-group select {
+	background: none;
+	border: 1px solid #ccc;
+	width: 60%;
+	/* margin-top: 3px; */
+}
+td select {
+	background: none;
+	border: 1px solid #ccc;
+}
+input[type="date"],
+input[type="datetime"],
+input[type="text"] {
+	border: 1px solid #ccc;
+	width: 80%;
+}
+input[type="number"] {
+	width: auto;
+}
+input[type="date"] {
+	padding: 6.8px 10px;
+}
+input[type="file"] {
+	display: none;
+}
+textarea {
+	background: none;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.filecontainer {
+	border: 1px solid #ccc;
+	padding: 8px;
+	margin-top: 10px;
+	width: 60%;
+}
+.filecontainer p i {
+	margin-left: 5px;
+}
+table td select {
+	width: 70%;
+}
+table td input,
+table td select {
+	padding: 3px 10px;
+}
+table tbody {
+	border-top: 1px solid #ccc !important;
+}
+.table-data {
+	padding: 20px 0px;
+}
+.itemBillContainer {
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin: 10px 0px;
+}
+.noborder td {
+	border: 0;
+}

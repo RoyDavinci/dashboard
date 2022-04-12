@@ -1,0 +1,10 @@
+.mainAnalyticContainer {
+	display: flex;
+	justify-content: space-between;
+}
+.sideBars {
+	flex: 0.17;
+}
+.componentContainer {
+	flex: 0.83;
+}
